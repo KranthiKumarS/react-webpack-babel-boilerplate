@@ -18,7 +18,7 @@ cd public
 type NUL > index.html
 ```
 * Add following code to index.html
-
+```
 <!DOCTYPE html>
 <html>
     <head>
@@ -29,7 +29,7 @@ type NUL > index.html
         <script src="/bandel.js"></script>
     </body>
 </html>
-
+```
 ## Step four: Setup for webpack dev server
 ```
 npm i --save-dev webpack webpack-dev-server webpack-cli
@@ -113,12 +113,12 @@ import ReactDOM from 'react-dom'
 
 const target = document.getElementById('app-root'); 
 const title = "My bilerplate for react + webpack + babel. "
-
+```
 ReactDOM.render(
     <div>{title}</div>,
     traget
 );
-
+```
 
 ## Aditional: Webpack watch and Host setup
 To hot reload while code change update following code with 'webpack.config.js' under 'devServer'.
